@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:EnviarCorreo.Forms"
              x:Class="EnviarCorreo.Forms.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <Button Label="Enviar Reporte"  
+          VerticalOptions="Center"
+          HorizontalOptions="Center" Clicked="OnButtonClicked" />
 
 </ContentPage>

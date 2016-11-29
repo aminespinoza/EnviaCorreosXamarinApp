@@ -13,5 +13,10 @@ namespace EnviarCorreo.Forms
         {
             InitializeComponent();
         }
+
+        void OnButtonClicked(object sender, EventArgs args)
+        {
+
+        }
     }
 }
