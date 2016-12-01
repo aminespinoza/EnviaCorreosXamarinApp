@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EnviarCorreo.Forms.ViewModel;
 using Xamarin.Forms;
 
 namespace EnviarCorreo.Forms
@@ -12,11 +8,7 @@ namespace EnviarCorreo.Forms
         public MainPage()
         {
             InitializeComponent();
-        }
-
-        void OnButtonClicked(object sender, EventArgs args)
-        {
-
+            BindingContext = new ViewModelBase(this.Navigation);
         }
     }
 }
