@@ -8,7 +8,7 @@ namespace EnviarCorreo.Nativo.Classes
     {
         static MobileServiceClient clienteServicio = new MobileServiceClient("http://encuestaclientes.azurewebsites.net");
 
-        public async static void InsertarCorreo(string direccionCorreo)
+        public async static void InsertarEntidad(string direccionCorreo, string evento)
         {
             Registros nuevoRegistro = new Registros();
             nuevoRegistro.identificador = ObtenerIdentificador(direccionCorreo);

@@ -13,12 +13,12 @@ namespace EnviarCorreo.Forms.ViewModel
             IdentificadorCommand = new Command(() =>
             {
                 //aquí es donde debes poner tu dirreción de correo
-                string direccionCorreo = "micorreo@servicio.com";
-
+                string direccionCorreo = "micorreoforms@servicio.com";
+                string evento = "4389";
                 var cadenaIdentificador = DependencyService.Get<IIdentifierService>().ObtenerIdentificador(direccionCorreo);
 
                 ServiceHelper servicioApp = new ServiceHelper();
-                servicioApp.InsertarCorreo(cadenaIdentificador, direccionCorreo);
+                servicioApp.InsertarEntidad(cadenaIdentificador, direccionCorreo, evento);
             });
         }
     }
