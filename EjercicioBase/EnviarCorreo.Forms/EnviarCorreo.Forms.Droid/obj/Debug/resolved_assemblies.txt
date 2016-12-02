@@ -30,13 +30,13 @@ C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorre
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Threading.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Reflection.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Net.Primitives.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Collections.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Globalization.dll
-C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Threading.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll

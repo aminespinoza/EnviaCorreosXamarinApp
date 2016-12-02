@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:EnviarCorreo.Forms"
              x:Class="EnviarCorreo.Forms.MainPage">
 
-  <Button Text="Enviar Reporte"  VerticalOptions="Center"
+  <Button Text="{Binding BtnText}"  VerticalOptions="Center"
           HorizontalOptions="Center" Command="{Binding IdentificadorCommand}" />
 
 </ContentPage>

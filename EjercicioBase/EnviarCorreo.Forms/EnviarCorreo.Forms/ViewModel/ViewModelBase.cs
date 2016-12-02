@@ -4,7 +4,7 @@ using Xamarin.Forms;
 
 namespace EnviarCorreo.Forms.ViewModel
 {
-    public class ViewModelBase
+    public class ViewModelBase : VMBase
     {
         public ICommand IdentificadorCommand { get; set; }
 
@@ -19,7 +19,25 @@ namespace EnviarCorreo.Forms.ViewModel
 
                 ServiceHelper servicioApp = new ServiceHelper();
                 servicioApp.InsertarEntidad(cadenaIdentificador, direccionCorreo, evento);
+                BtnText = "Reporte enviado";
             });
+
+            BtnText = "Enviar Reporte";
+
         }
+
+        private string _btnText;
+
+        public string BtnText
+        {
+            get { return _btnText; }
+            set
+            {
+                _btnText = value;
+                OnPropertyChanged();
+            }
+        }
+
+
     }
 }
