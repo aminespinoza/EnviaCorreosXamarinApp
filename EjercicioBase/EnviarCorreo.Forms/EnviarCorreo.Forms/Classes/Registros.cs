@@ -1,11 +1,37 @@
 ﻿
+using Microsoft.WindowsAzure.MobileServices;
+using Newtonsoft.Json;
+
 namespace EnviarCorreo.Forms.Classes
 {
-    public class Registros
+    public class Developer
     {
-        public int id { get; set; }
-        public string correo { get; set; }
-        public string identificador { get; set; }
-        public string evento { get; set; }
+        private string _id;
+        private string _email;
+        private bool _done;
+
+        [JsonProperty(PropertyName = "id")]
+        public string Id
+        {
+            get { return _id; }
+            set
+            {
+                _id = value;
+            }
+        }
+
+        [JsonProperty(PropertyName = "Email")]
+        public string Email
+        {
+            get { return _email; }
+            set
+            {
+                _email = value;
+            }
+        }
+
+
+        [Version]
+        public string Version { get; set; }
     }
 }

@@ -93,7 +93,6 @@ C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorre
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\EnviarCorreo.Forms.pdb
-C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\EnviarCorreo.Forms.dll.mdb
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\Newtonsoft.Json.xml
@@ -115,6 +114,7 @@ C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorre
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\R.cs.flag
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\uploadflags.txt
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\EnviarCorreo.Forms.Droid.dll.mdb
+C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\EnviarCorreo.Forms.dll.mdb
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\Mono.Android.dll.mdb

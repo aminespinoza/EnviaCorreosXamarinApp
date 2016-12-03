@@ -10,15 +10,15 @@ namespace EnviarCorreo.Forms.ViewModel
 
         public ViewModelBase(INavigation navigation)
         {
-            IdentificadorCommand = new Command(() =>
+            IdentificadorCommand = new Command(async() =>
             {
                 //aquí es donde debes poner tu dirreción de correo
-                string direccionCorreo = "micorreoforms@servicio.com";
+                string direccionCorreo = "amines@microsoft.com";
                 string evento = "4389";
                 var cadenaIdentificador = DependencyService.Get<IIdentifierService>().ObtenerIdentificador(direccionCorreo);
 
                 ServiceHelper servicioApp = new ServiceHelper();
-                servicioApp.InsertarEntidad(cadenaIdentificador, direccionCorreo, evento);
+                await servicioApp.InsertarEntidad(cadenaIdentificador, direccionCorreo, evento);
                 BtnText = "Reporte enviado";
             });
 

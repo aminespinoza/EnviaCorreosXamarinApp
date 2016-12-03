@@ -40,11 +40,9 @@ C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorre
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\obj\Debug\EnviarCorreo.Forms.csproj.App.config
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\obj\Debug\EnviarCorreo.Forms.csprojResolveAssemblyReference.cache
+C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\obj\Debug\EnviarCorreo.Forms.Views.MainPage.xaml.g.cs
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\obj\Debug\EnviarCorreo.Forms.App.xaml.g.cs
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\obj\Debug\EnviarCorreo.Forms.dll
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\obj\Debug\EnviarCorreo.Forms.pdb
-C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\obj\Debug\EnviarCorreo.Forms.Views.MainPage.xaml.g.cs
-C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\obj\Debug\EnviarCorreo.Forms.dll.mdb
-C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\bin\Debug\EnviarCorreo.Forms.dll.mdb
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\obj\Debug\EnviarCorreo.Forms.dll.mdb
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms\bin\Debug\EnviarCorreo.Forms.dll.mdb
