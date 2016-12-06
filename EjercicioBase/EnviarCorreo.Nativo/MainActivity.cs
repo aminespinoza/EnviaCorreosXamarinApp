@@ -2,7 +2,7 @@
 using Android.App;
 using Android.Widget;
 using Android.OS;
-using EnviarCorreo.Nativo.Classes;
+using EnviarCorreo.Forms.Classes;
 
 namespace EnviarCorreo.Nativo
 {
@@ -20,9 +20,10 @@ namespace EnviarCorreo.Nativo
             button.Click += btnReportar_Click;
         }
 
-        private void btnReportar_Click(object sender, EventArgs e)
+        private async void btnReportar_Click(object sender, EventArgs e)
         {
-            ServiceHelper.InsertarEntidad("micorreo@servicio.com", "4389");
+            ServiceHelper serviceHelper = new ServiceHelper();
+            await serviceHelper.InsertarEntidad("amin.espinoza@outlook.com", "4389");
             button.Text = "Reporte enviado";
         }
     }

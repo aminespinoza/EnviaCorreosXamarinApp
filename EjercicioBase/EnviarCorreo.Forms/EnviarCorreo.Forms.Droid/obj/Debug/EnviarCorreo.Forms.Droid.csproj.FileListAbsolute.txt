@@ -144,4 +144,3 @@ C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorre
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\obj\Debug\EnviarCorreo.Forms.Droid.dll.mdb
-C:\Users\amine\Documents\GitHub\EnviaCorreosXamarinApp\EjercicioBase\EnviarCorreo.Forms\EnviarCorreo.Forms.Droid\bin\Debug\EnviarCorreo.Forms.Droid.dll.mdb

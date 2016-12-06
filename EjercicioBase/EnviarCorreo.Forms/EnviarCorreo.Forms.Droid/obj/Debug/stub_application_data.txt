@@ -1,2 +1,0 @@
-android.app.Application
-EnviarCorreo.Forms.Droid

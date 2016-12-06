@@ -11,11 +11,11 @@ namespace EnviarCorreo.Forms.Classes
 
         private IMobileServiceTable<Developer> _developerTable;
 
-        public async Task InsertarEntidad(string identificador, string direccionCorreo, string evento)
+        public async Task InsertarEntidad(string direccionCorreo, string evento)
         {
             Developer nuevoRegistro = new Developer();
             nuevoRegistro.Email = direccionCorreo;
-            //nuevoRegistro.Event = evento;
+            nuevoRegistro.Event = evento;
             _developerTable = clienteServicio.GetTable<Developer>();
             await _developerTable.InsertAsync(nuevoRegistro);
         }
