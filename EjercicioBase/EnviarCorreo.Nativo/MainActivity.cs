@@ -25,7 +25,6 @@ namespace EnviarCorreo.Nativo
             ServiceHelper serviceHelper = new ServiceHelper();
             await serviceHelper.InsertarEntidad("amin.espinoza@outlook.com", "4389");
             button.Text = "Reporte enviado";
-            Toast.MakeText(this, "El correo ha sido enviado", ToastLength.Short).Show();
         }
     }
 }
