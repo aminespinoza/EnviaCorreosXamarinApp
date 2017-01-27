@@ -9,8 +9,8 @@ namespace EnviarCorreo.Nativo
     [Activity(Label = "EnviarCorreo.Nativo", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        Button bactionButton;
-        string emailBase = "amin.espinoza@outlook.com";
+        Button actionButton;
+        string emailBase = "amin.espinoza@gmail.com";
         string codeBase = "upt";
 
         protected override void OnCreate(Bundle bundle)
@@ -18,8 +18,8 @@ namespace EnviarCorreo.Nativo
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
 
-            bactionButton = FindViewById<Button>(Resource.Id.btnReportar);
-            bactionButton.Click += btnReportar_Click;
+            actionButton = FindViewById<Button>(Resource.Id.btnReportar);
+            actionButton.Click += btnReportar_Click;
         }
 
         private async void btnReportar_Click(object sender, EventArgs e)
@@ -30,9 +30,10 @@ namespace EnviarCorreo.Nativo
                 throw new Exception("Recuerda cambiar el correo y código del correo");
 
             }
+            actionButton.Enabled = false;
             await serviceHelper.InsertarEntidad(emailBase, codeBase);
-            bactionButton.Text = "Reporte enviado";
-            bactionButton.Enabled = false;
+            actionButton.Text = "Reporte enviado";
+
             Toast.MakeText(this, "Tienes correo nuevo!", ToastLength.Short).Show();
         }
     }
