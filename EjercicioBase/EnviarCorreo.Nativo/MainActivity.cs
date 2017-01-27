@@ -27,7 +27,7 @@ namespace EnviarCorreo.Nativo
             ServiceHelper serviceHelper = new ServiceHelper();
             if (emailBase == "amin.espinoza@gmail.com" || codeBase == "iniciativa")
             {
-                throw new Exception("Recuerda cambiar el correo y código del correo");
+                throw new Exception("Recuerda modificar el código fuente para ingresar tu e-mail y ID de evento");
 
             }
             actionButton.Enabled = false;

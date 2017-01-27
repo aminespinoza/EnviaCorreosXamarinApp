@@ -15,44 +15,43 @@ Para comenzar a utilizar este proyecto, debes seleccionar la opción de Descarga
 
 Una vez descargado y abierto, deberás abrirlo en Visual Studio y el resultado debe ser como el siguiente en tu explorador de soluciones.
 
-<img src="Imagenes/Imagen02.jpg" width="280" height="800"/>
+<img src="Imagenes/Imagen02.jpg" width="280" height="380"/>
 
-Ya abiertos todos los proyectos, selecciona una de las dos opciones por desplegar, puede ser utilizando **Xamarin Nativo** o **Xamarin Forms**. Si deseas hacerlo con la versión nativa solo selecciona **EnviarCorreo.Nativo** como proyecto de inicio.
+Ya abierto tu proyecto, selecciona **Xamarin Nativo** como proyecto de inicio (ya está por defecto señalado como proyecto de inicio).
 
 <img src="Imagenes/Imagen03.jpg" width="380" height="350"/>
 
-Puedes hacer exactamente lo mismo con el proyecto **EnviarCorreo.Forms.Droid** si quieres hacerlo vía Forms. 
-
 # Modificar el proyecto de Xamarin Nativo
 
-Para modificar el proyecto de Xamarin Nativo lo que debes hacer es abrir el archivo MainActivity.cs en el manejador del evento clic del botón, ahí podrás agregar tu correo y el identificador del evento que quieras.
+Para modificar el proyecto de Xamarin Nativo lo que debes hacer es abrir el archivo MainActivity.cs en el manejador del evento clic del botón, ahí podrás agregar tu correo y el identificador del evento que quieras desde las variables globales establecidas al principio de la clase.
+
+```csharp
+string emailBase = "amin.espinoza@gmail.com";
+string codeBase = "iniciativa";
+```
+Como podrás ver, estas variables se utilizan en el método **btnReportar_Click** y el que las hayas cambiado hará que todo funcione a la perfección.
+
 ```csharp
 private async void btnReportar_Click(object sender, EventArgs e)
 {
-    ServiceHelper serviceHelper = new ServiceHelper();
-    await serviceHelper.InsertarEntidad("amin.espinoza@outlook.com", "4389");
-    button.Text = "Reporte enviado";
+	ServiceHelper serviceHelper = new ServiceHelper();
+	if (emailBase == "amin.espinoza@gmail.com" || codeBase == "iniciativa")
+	{
+		throw new Exception("Recuerda modificar el código fuente para ingresar tu e-mail y ID de evento");
+
+	}
+	actionButton.Enabled = false;
+	await serviceHelper.InsertarEntidad(emailBase, codeBase);
+	actionButton.Text = "Reporte enviado";
+
+	Toast.MakeText(this, "Tienes correo nuevo!", ToastLength.Short).Show();
 }
 ```
-Pon tus datos, ejecuta la aplicación y después de presionar el botón podrás recibir un correo con la confirmación de que ya todo está listo.
+También podrás encontrar que si ejecutas tu proyecto sin modificar, obtendrás la siguiente excepción.
 
-# Modificar el proyecto de Xamarin Forms
-Para modificar el proyecto de Xamarin Forms lo que debes hacer es abrir el archivo ViewModelBase.cs y ahí modificar el comando para agregar tu correo y el identificador del evento que quieras.
-```csharp
-IdentificadorCommand = new Command(() =>
-{
-    //aquí es donde debes poner tu dirreción de correo
-    string direccionCorreo = "micorreoforms@servicio.com";
-    string evento = "4389";
-    var cadenaIdentificador = DependencyService.Get<IIdentifierService>().ObtenerIdentificador(direccionCorreo);
+<img src="Imagenes/Imagen04.jpg" width="580" height="390"/>
 
-    ServiceHelper servicioApp = new ServiceHelper();
-    servicioApp.InsertarEntidad(cadenaIdentificador, direccionCorreo, evento);
-    BtnText = "Reporte enviado";
-});
-```
+Si te aparece, recuerda solo modificar tus variables globales para no tener problemas. Al final podrás ver en tu emulador o dispositivo el siguiente resultado después de haber presionado el botón.
 
-Pon tus datos, ejecuta la aplicación y después de presionar el botón podrás recibir un correo con la confirmación de que ya todo está listo.
-
-Como verás los pasos son quizá un poco diferentes pero el objetivo es el mismo en ambos casos. Ahora, lo recomendable es que revises los proyectos, conozcas su estructura y veas todo lo que hay en ambos escenarios.
+<img src="Imagenes/Imagen05.jpg" width="380" height="650"/>
 
