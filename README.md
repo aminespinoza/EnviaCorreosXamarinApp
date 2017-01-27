@@ -51,5 +51,5 @@ También podrás encontrar que si ejecutas tu proyecto sin modificar, obtendrás
 
 Si te aparece, recuerda solo modificar tus variables globales para no tener problemas. Al final podrás ver en tu emulador o dispositivo el siguiente resultado después de haber presionado el botón.
 
-<img src="Imagenes/Imagen05.jpg" width="380" height="650"/>
+<img src="Imagenes/Imagen06.jpg" width="380" height="650"/>
 
