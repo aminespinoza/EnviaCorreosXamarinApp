@@ -11,7 +11,7 @@ namespace EnviarCorreo.Nativo
     {
         Button actionButton;
         string emailBase = "amin.espinoza@gmail.com";
-        string codeBase = "upt";
+        string codeBase = "iniciativa";
 
         protected override void OnCreate(Bundle bundle)
         {
