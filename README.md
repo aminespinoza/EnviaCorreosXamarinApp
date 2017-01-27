@@ -1,11 +1,9 @@
 # EnviaCorreosXamarinApp
 Este proyecto es el primer ejercicio pensado para considerar que tienes ya todo instalado para un ambiente de desarrollo con Xamarin.
 
-La estructura del proyecto es la siguiente.
+En la carpeta de [EjercicioBase](https://github.com/aminespinoza/EnviaCorreosXamarinApp/tree/master/EjercicioBase) podrás encontrar una solución en Xamarin Nativo (también existe Xamarin Forms).
 
-En la carpeta de [EjercicioBase](https://github.com/aminespinoza/EnviaCorreosXamarinApp/tree/master/EjercicioBase) podrás encontrar una solución basada tanto en Xamarin Forms como en modo Nativo.
-
-En cualquiera de los dos casos podrás tener la capacidad de utilizar esta aplicación para participar en múltiples iniciativas y eventos, comprobar que toda la instalación de tu entorno de desarrollo de Xamarin está lista y también aprender un poco más con un buen ejercicio.
+Como lo dice la primera parte, si lograr ejecutar los siguentes pasos sin problemas en tu equipo significará entonces que ya tienes todo listo y ya estás registrado para participar en varias iniciativas y además comenzar a desarrollar aplicaciones multiplataforma.
 
 # Ejercicio Base
 
